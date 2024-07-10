@@ -1,100 +1,55 @@
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><a href="https://www.pandapower.org" rel="nofollow"><img alt="标识" src="https://camo.githubusercontent.com/3918bc3a4c384a7f1e5924e7828d4c85f24328e320b53f6264ab8162b811aac8/68747470733a2f2f7777772e70616e6461706f7765722e6f72672f696d616765732f70702e737667" data-canonical-src="https://www.pandapower.org/images/pp.svg" style="max-width: 100%;">
+</a>
+<div dir="auto">
+<div dir="auto"><br></div>
+</div>
+<a href="https://pypi.python.org/pypi/pandapower" rel="nofollow"><img alt="吡啶甲酸" src="https://camo.githubusercontent.com/815c0a1608334b0910c0d4a5c17cd5cfb5b58de69a82e062ff78b1130f0be4af/68747470733a2f2f62616467652e667572792e696f2f70792f70616e6461706f7765722e737667" data-canonical-src="https://badge.fury.io/py/pandapower.svg" style="max-width: 100%;">
+</a>
+<a href="https://pypi.python.org/pypi/pandapower" rel="nofollow"><img alt="版本" src="https://camo.githubusercontent.com/138875325e1d94252b7f145ff2989c3faa61fa4338c2e07e82fc4830bac30cd9/68747470733a2f2f696d672e736869656c64732e696f2f707970692f707976657273696f6e732f70616e6461706f7765722e737667" data-canonical-src="https://img.shields.io/pypi/pyversions/pandapower.svg" style="max-width: 100%;">
+</a>
+<a href="http://pandapower.readthedocs.io/" rel="nofollow"><img alt="文档" src="https://camo.githubusercontent.com/cbb59e5eb6a9204a307b2cfd4c249aa5f9824d51046f02a13a4028ab8288ce89/68747470733a2f2f72656164746865646f63732e6f72672f70726f6a656374732f70616e6461706f7765722f62616467652f" data-canonical-src="https://readthedocs.org/projects/pandapower/badge/" style="max-width: 100%;"></a>
+<a href="https://app.codecov.io/github/e2nIEE/pandapower?branch=master" rel="nofollow"><img alt="编码" src="https://camo.githubusercontent.com/a254f8035c0cd70d6344f406fb8f8797ab77017b653c1673ba84b80dd7315ae1/68747470733a2f2f636f6465636f762e696f2f6769746875622f65326e4945452f70616e6461706f7765722f636f7665726167652e7376673f6272616e63683d6d6173746572" data-canonical-src="https://codecov.io/github/e2nIEE/pandapower/coverage.svg?branch=master" style="max-width: 100%;"></a>
+<a href="https://app.codacy.com/gh/e2nIEE/pandapower?branch=master" rel="nofollow"><img alt="共生性" src="https://camo.githubusercontent.com/0777505fcc4bcee85ef6d5df5afe82243af512860b3aa198a87ae830fe94f217/68747470733a2f2f6170692e636f646163792e636f6d2f70726f6a6563742f62616467652f47726164652f6532636539363039333566643466393662346265346466663961306337366533" data-canonical-src="https://api.codacy.com/project/badge/Grade/e2ce960935fd4f96b4be4dff9a0c76e3" style="max-width: 100%;"></a>
+<a href="https://github.com/e2nIEE/pandapower/blob/master/LICENSE"><img alt="北达科他州" src="https://camo.githubusercontent.com/aa27bfae9200ad81b9c64e82edafa3aef061e2b59e4089eb0841297d510d5db9/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d425344253230332d2d436c617573652d626c75652e737667" data-canonical-src="https://img.shields.io/badge/License-BSD%203--Clause-blue.svg" style="max-width: 100%;">
+</a>
+<a href="https://pepy.tech/project/pandapower" rel="nofollow"><img alt="佩皮" src="https://camo.githubusercontent.com/be260adfb6611028b5ee488aacf0c087f7228ffbeffdff8a070edb612d7a0a40/68747470733a2f2f706570792e746563682f62616467652f70616e6461706f776572" data-canonical-src="https://pepy.tech/badge/pandapower" style="max-width: 100%;"></a>
+<a href="https://mybinder.org/v2/gh/e2nIEE/pandapower/master?filepath=tutorials" rel="nofollow"><img alt="粘合剂" src="https://camo.githubusercontent.com/e91e1d353a8b6acf0b42547ac3901f2c30138a3abaaa3d3c242da30b5b4f8426/68747470733a2f2f6d7962696e6465722e6f72672f62616467655f6c6f676f2e737667" data-canonical-src="https://mybinder.org/badge_logo.svg" style="max-width: 100%;">
+</a>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">pandapower 是一款易于使用的网络计算程序，旨在自动分析和优化电力系统。它使用数据分析库</font></font><a href="http://pandas.pydata.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">pandas</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，并与常用的 MATPOWER / PYPOWER 案例格式兼容。pandapower 允许使用不同的求解器，包括改进的牛顿-拉夫森功率流实现、所有</font></font><a href="https://pypi.python.org/pypi/PYPOWER" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PYPOWER</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">求解器、用于快速稳态配电电力系统分析的</font></font><a href="https://github.com/PowerGridModel/power-grid-model"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PowerGridModel</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的 C++ 库求解器、C++ 库</font></font><a href="https://github.com/BDonnot/lightsim2grid/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">lightsim2grid</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中的牛顿-拉夫森功率流求解器和
+</font></font><a href="https://github.com/lanl-ansi/PowerModels.jl/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PowerModels.jl</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">库。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关 pandapower 的更多信息，请访问</font></font><a href="https://www.pandapower.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">www.pandapower.org</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关于pandapower：</font></font></p>
+<ul dir="auto">
+<li><a href="https://www.pandapower.org/about/#modeling" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">电力系统建模</font></font></a></li>
+<li><a href="https://www.pandapower.org/about/#analysis" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">电力系统分析</font></font></a></li>
+<li><a href="https://www.pandapower.org/references/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">引用 pandapower</font></font></a></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">入门：</font></font></p>
+<ul dir="auto">
+<li><a href="https://www.pandapower.org/start/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装说明</font></font></a></li>
+<li><a href="https://www.pandapower.org/start/#intro" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最小示例</font></font></a></li>
+<li><a href="https://www.pandapower.org/start/#tutorials" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">交互式教程</font></font></a></li>
+<li><a href="https://pandapower.readthedocs.io/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></a></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您对 pandapower 的最新发展感兴趣，请订阅我们的</font></font><a href="https://www.pandapower.org/contact/#list" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">邮件列表</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">！</font></font></p>
+<a href="https://www.simbench.net" rel="nofollow"><img alt="SimBench_徽标" src="https://camo.githubusercontent.com/e20aae9cdb9f34bc29041891bb9f54f1204ab9d04c75bf07c3b3b872e8d4d7a8/68747470733a2f2f73696d62656e63682e64652f77702d636f6e74656e742f75706c6f6164732f323031392f30312f6c6f676f2e706e67" data-canonical-src="https://simbench.de/wp-content/uploads/2019/01/logo.png" style="max-width: 100%;"></a>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要获取可在 pandapower 中使用的所有电压水平的真实负载曲线数据和电网模型，请访问</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SimBench</font></font></em> <a href="https://www.simbench.net" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">项目网站</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或
+</font></font><a href="https://github.com/e2nIEE/simbench"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GitHub</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<a href="https://www.pandapipes.org" rel="nofollow"><img alt="pandapipes_logo" src="https://camo.githubusercontent.com/0b66efbc14049024c600e60162cdc537ffc87abfa9f9d6ff5163d1cba57267bb/68747470733a2f2f7777772e70616e646170697065732e6f72672f696d616765732f70702e737667" width="270pt" data-canonical-src="https://www.pandapipes.org/images/pp.svg" style="max-width: 100%;">
+</a>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您也想对管道网络（热能、天然气或水）进行建模，我们推荐 pandapower 的姊妹项目</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">pandapipes</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（</font></font><a href="https://www.pandapipes.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">网站</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><a href="https://github.com/e2nIEE/pandapipes"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GitHub 存储库</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）。</font></font></p>
+<div dir="auto">
+<div dir="auto"><br></div>
+</div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">pandapower 是卡塞尔大学能源管理和电力系统运行研究小组与卡塞尔弗劳恩霍夫能源经济和能源系统技术研究所（IEE）配电系统运行部联合开发的。</font></font></p>
+<a href="https://www.uni-kassel.de/eecs/en/sections/energiemanagement-und-betrieb-elektrischer-netze/home" rel="nofollow"><img alt="http://www.pandapower.org/images/contact/Logo_e2n.png" src="https://camo.githubusercontent.com/4879ceb1f8b0f322deba7c2ee4699f298e7739d1a56fda40d5509f93c824e2cc/687474703a2f2f7777772e70616e6461706f7765722e6f72672f696d616765732f636f6e746163742f4c6f676f5f65326e2e706e67" style="width: 500px; max-width: 100%;" data-canonical-src="http://www.pandapower.org/images/contact/Logo_e2n.png"></a>
+<div dir="auto">
+<div dir="auto"><br></div>
+</div>
+<a href="https://www.iee.fraunhofer.de/en.html" rel="nofollow"><img alt="http://www.pandapower.org/images/contact/Logo_Fraunhofer_IEE.png" src="https://camo.githubusercontent.com/8aa5f2bbfac05f68d3ecb4b881ef2fad7cddc4ea2d52023abf3656b89d3cc755/687474703a2f2f7777772e70616e6461706f7765722e6f72672f696d616765732f636f6e746163742f4c6f676f5f467261756e686f6665725f4945452e706e67" style="width: 500px; max-width: 100%;" data-canonical-src="http://www.pandapower.org/images/contact/Logo_Fraunhofer_IEE.png"></a>
+<div dir="auto">
+<div dir="auto"><br></div>
+</div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们欢迎对 pandapower 做出任何形式的贡献 - 如果您想做出贡献，请查看</font></font><a href="https://github.com/e2nIEE/pandapower/blob/develop/CONTRIBUTING.rst"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">pandapower 贡献指南</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
-.. image:: https://www.pandapower.org/images/pp.svg
-   :target: https://www.pandapower.org
-   :alt: logo
-
-|
-
-.. image:: https://badge.fury.io/py/pandapower.svg
-   :target: https://pypi.python.org/pypi/pandapower
-   :alt: PyPI
-
-.. image:: https://img.shields.io/pypi/pyversions/pandapower.svg
-   :target: https://pypi.python.org/pypi/pandapower
-   :alt: versions
-
-.. image:: https://readthedocs.org/projects/pandapower/badge/
-   :target: http://pandapower.readthedocs.io/
-   :alt: docs
-
-.. image:: https://codecov.io/github/e2nIEE/pandapower/coverage.svg?branch=master
-   :target: https://app.codecov.io/github/e2nIEE/pandapower?branch=master
-   :alt: codecov
-
-.. image:: https://api.codacy.com/project/badge/Grade/e2ce960935fd4f96b4be4dff9a0c76e3
-   :target: https://app.codacy.com/gh/e2nIEE/pandapower?branch=master
-   :alt: codacy
-
-.. image:: https://img.shields.io/badge/License-BSD%203--Clause-blue.svg
-   :target: https://github.com/e2nIEE/pandapower/blob/master/LICENSE
-   :alt: BSD
-
-.. image:: https://pepy.tech/badge/pandapower
-   :target: https://pepy.tech/project/pandapower
-   :alt: pepy
-
-.. image:: https://mybinder.org/badge_logo.svg
-   :target: https://mybinder.org/v2/gh/e2nIEE/pandapower/master?filepath=tutorials
-   :alt: binder
-
-
-
-
-
-pandapower is an easy to use network calculation program aimed to automate the analysis and optimization of power
-systems. It uses the data analysis library `pandas <http://pandas.pydata.org>`_ and is compatible with the commonly
-used MATPOWER / PYPOWER case format. pandapower allows using different solvers including an improved Newton-Raphson
-power flow implementation, all `PYPOWER <https://pypi.python.org/pypi/PYPOWER>`_ solvers, the C++ library solvers for fast steady-state distribution power system analysis of `PowerGridModel <https://github.com/PowerGridModel/power-grid-model>`_, the Newton-Raphson power flow solvers in the C++ library `lightsim2grid <https://github.com/BDonnot/lightsim2grid/>`_, and the
-`PowerModels.jl <https://github.com/lanl-ansi/PowerModels.jl/>`_ library.
-
-More information about pandapower can be found on `www.pandapower.org <https://www.pandapower.org/>`_:
-
-About pandapower:
-
-- `Power System Modeling <https://www.pandapower.org/about/#modeling>`_
-- `Power System Analysis <https://www.pandapower.org/about/#analysis>`_
-- `Citing pandapower <https://www.pandapower.org/references/>`_
-
-Getting Started:
-
-- `Installation Notes <https://www.pandapower.org/start/>`_
-- `Minimal Example <https://www.pandapower.org/start/#intro>`_
-- `Interactive Tutorials <https://www.pandapower.org/start/#tutorials>`_
-- `Documentation <https://pandapower.readthedocs.io/>`_
-
-If you are interested in the latest pandapower developments, subscribe to our `mailing list <https://www.pandapower.org/contact/#list>`_!
-
-.. image:: https://simbench.de/wp-content/uploads/2019/01/logo.png
-   :target: https://www.simbench.net
-   :alt: SimBench_logo
-
-To get realistic load profile data and grid models across all voltage levels that are ready to
-be used in pandapower, have a look at the *SimBench* `project website <https://www.simbench.net>`_ or
-`on GitHub <https://github.com/e2nIEE/simbench>`_.
-
-.. image:: https://www.pandapipes.org/images/pp.svg
-   :target: https://www.pandapipes.org
-   :width: 270pt
-   :alt: pandapipes_logo
-
-If you want to model pipe networks (heat, gas or water) as well, we recommend
-pandapower's sibling project *pandapipes* (`website <https://www.pandapipes.org>`_, `GitHub repository <https://github.com/e2nIEE/pandapipes>`_).
-
-|
-
-pandapower is a joint development of the research group Energy Management and Power System Operation, University of Kassel and the Department for Distribution System
-Operation at the Fraunhofer Institute for Energy Economics and Energy System Technology (IEE), Kassel.
-
-.. image:: http://www.pandapower.org/images/contact/Logo_e2n.png
-    :target: https://www.uni-kassel.de/eecs/en/sections/energiemanagement-und-betrieb-elektrischer-netze/home
-    :width: 500
-
-|
-
-.. image:: http://www.pandapower.org/images/contact/Logo_Fraunhofer_IEE.png
-    :target: https://www.iee.fraunhofer.de/en.html
-    :width: 500
-
-|
-
-We welcome contributions to pandapower of any kind - if you want to contribute, please check out the `pandapower contribution guidelines <https://github.com/e2nIEE/pandapower/blob/develop/CONTRIBUTING.rst>`_.
+</article></div>
